@@ -192,7 +192,7 @@ Para mais detalhes sobre o uso deste addon visite o aplicativo de demonstração
 * `git clone` este repositorio
 * `npm install`
 * `bower install`
-* 
+
 ## Execução
 
 * `ember server`
