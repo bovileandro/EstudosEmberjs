@@ -1,7 +1,7 @@
 {
-  "name": "processa-security-addon",
+  "name": "lenita-security-addon",
   "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Biblioteca para Autenticação e Autorização de acesso.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -42,7 +42,7 @@
   },
   "keywords": [
     "ember-addon",
-    "processa-security",
+    "lenita-security",
     "security"
   ],
   "dependencies": {

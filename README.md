@@ -1,13 +1,13 @@
-# Processa-security-addon
-O Processa Security Addon é uma biblioteca para Autenticação e Autorização de acesso em aplicações desenvolvidas com o [Ember.js 	versão 2.1.0](http://guides.emberjs.com/v2.1.0/). Este addon utiliza os métodos de autenticação do [Ember Simple Auth](http://ember-simple-auth.com/), e adiciona métodos de autorização via Acl.
+# Lenita-security-addon
+O Security Addon é uma biblioteca para Autenticação e Autorização de acesso em aplicações desenvolvidas com o [Ember.js 	versão 2.1.0](http://guides.emberjs.com/v2.1.0/). Este addon utiliza os métodos de autenticação do [Ember Simple Auth](http://ember-simple-auth.com/), e adiciona métodos de autorização via Acl.
 
 Este README descreve os detalhes para a utilização deste addon.
 
 ##Configuração
 
-O Processa Security Addon é configurado através da seção `'processa-security-addon'` no `config/environment.js` da aplicação. É obrigatória a configuração das urls para os serviços de Auth e Acl no servidor. ex.:
+O Security Addon é configurado através da seção `'lenita-security-addon'` no `config/environment.js` da aplicação. É obrigatória a configuração das urls para os serviços de Auth e Acl no servidor. ex.:
 
-	ENV['processa-security-addon'] = {
+	ENV['lenita-security-addon'] = {
    		authUrl: '/api//Auth?f=json',
     	aclUrl: '/api/Acl/'
   	};
@@ -125,7 +125,7 @@ A autorização também pode ser utilizada nos templates para mostrar ou ocultar
 	// routes/rotaprivada.js
 	import Ember from 'ember';
 	import AuthenticatedRouteMixin from 'ember-simple-auth/mixins/authenticated-route-mixin';
-	import AuthorizedRouteMixin from 'processa-security-addon/mixins/authorized-route-mixin';
+	import AuthorizedRouteMixin from 'lenita-security-addon/mixins/authorized-route-mixin';
 
 	export default Ember.Route.extend(AuthenticatedRouteMixin, AuthorizedRouteMixin, {
   

@@ -14,7 +14,7 @@ export default Base.extend({
   },
 
   authenticate(login, senha) {
-    const config   = ENV['processa-security-addon'] || {};
+    const config   = ENV['lenita-security-addon'] || {};
     var authorization = 'Basic ' + btoa(login + ":" + senha);
 
     Ember.$.ajaxSetup({

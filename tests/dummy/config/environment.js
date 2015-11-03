@@ -19,7 +19,7 @@ module.exports = function(environment) {
     }
   };
 
-  ENV['processa-security-addon'] = {
+  ENV['lenita-security-addon'] = {
     authUrl: '/api/Auth?f=json',
     aclUrl: '/api/Acl/'
   };

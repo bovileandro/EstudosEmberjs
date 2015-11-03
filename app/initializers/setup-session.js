@@ -1,1 +1,1 @@
-export { default, initialize } from 'processa-security-addon/initializers/setup-session';
+export { default, initialize } from 'lenita-security-addon/initializers/setup-session';
