@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'processa-security-addon',
+  name: 'lenita-security-addon',
   included: function(app, parentAddon) {
     var target = (parentAddon || app);
   }

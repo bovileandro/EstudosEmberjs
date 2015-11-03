@@ -1,6 +1,6 @@
 import Ember from 'ember';
 import AuthenticatedRouteMixin from 'ember-simple-auth/mixins/authenticated-route-mixin';
-import AuthorizedRouteMixin from 'processa-security-addon/mixins/authorized-route-mixin';
+import AuthorizedRouteMixin from 'lenita-security-addon/mixins/authorized-route-mixin';
 
 export default Ember.Route.extend(AuthenticatedRouteMixin, AuthorizedRouteMixin, {
   
